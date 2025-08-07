@@ -1,0 +1,25 @@
+.create-prompt-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.form-container h1 {
+  color: #bbd6f5;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.form-container p {
+  color: #a0aec0;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+

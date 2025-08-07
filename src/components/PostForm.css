@@ -1,0 +1,27 @@
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="url"],
+.form-group textarea{
+    width:100%;
+    border: 1px solid;
+    background-color: #2d2d2d;
+    color: #e2e8f0;
+    border-radius: 6px;
+    font-size: 18px;
+    outline: none;
+}
+
+.submit-btn{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer; 
+    font-size: 18px; 
+    margin-right: 10px;
+    background-color: #4299e1;
+    color: white;
+}
+
