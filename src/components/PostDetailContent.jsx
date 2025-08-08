@@ -15,14 +15,15 @@ function PostDetailContent({id, title, prompt_text, image_url, up_votes = 0, cre
         <div className="post-detail">
             <div className='post-detail-content'>
                 
-                {title?(
-                    <h3 className="post-title">{title}</h3>
-                ):
-                (
-                    <h3 className="post-title placeholder">Enter a title to preview</h3>
-                )}
-
-                <Link to={`/edit/${id}`}> Edit</Link>
+                <div className="post-title-container">
+                    {title?(
+                        <h3 className="post-title">{title}</h3>
+                    ):
+                    (
+                        <h3 className="post-title placeholder">Enter a title to preview</h3>
+                    )}
+                    <Link className="edit-button" to={`/edit/${id}`}> Edit</Link>
+                </div>
 
                 {image_url && (
                     <div className="post-image-section">
